@@ -18,6 +18,10 @@ class Stock_class{
 
 		}
 
+		public function select_for_dashboard()
+		{
+			return $this->db->select("stock");
+		}
 
 
 
